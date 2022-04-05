@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background-color: #f4f4f4;
+	background-image: url("img/big-perfume.png");
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: right bottom;
+	background-attachment: fixed;
+}
+#left{
+	width: 300px;
+	background-color: #333;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left:0;
+	/* top:0; bottom: 0; height 속성은 제거 */
+	text-align: center;
+}
+#left .logo{
+	background-image: url("img/logo.png");
+	width: 200px;
+	height: 60px;
+	display:block;
+	text-indent: -9999px;
+	margin: 0 auto;
+}
+#left ul{
+	margin-bottom: 20px;
+}
+#left ul li a{
+	display: block;
+	height: 30px;
+	color: #666;
+}
+#left ul li a:hover{
+	background-color: #999;
+}
+#contents{
+	margin-left: 300px;
+	text-align: center;
+}
+#contents li{
+   float: left;
+   margin-bottom: 20px;	
+   margin-left: 20px;
+   box-shadow: 0 0 15px rgba(0,0,0,0.5);
+   position: relative;
+}
+#contents li .right{
+  position: absolute;
+  left: 0;
+  bottom:0;
+  margin: 0 auto;
+  width: 100%;
+}
+#contents li .right h3{
+	color: purple;
+}
+
+
+
