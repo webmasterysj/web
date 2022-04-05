@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+#wrap{
+	width: 900px;
+	margin: 0 auto;
+}
+header{
+	background-image: url("img/back_img1.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 108px;
+}
+header #logo{
+	padding: 26px 0 20px 28px;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #3366ff;
+	background-image: url("img/menu_back.png");
+	background-repeat: repeat-x;
+}
+nav ul{
+	padding:  13px 0 0 15px;
+}
+nav ul li{
+    float: left;	
+}
+nav ul li a{
+	color: #fff;
+	font-family: "맑은 고딕";
+	padding: 0 20px;
+}
+nav ul li a:hover{
+	color: #ffcc00;
+	text-shadow: 2px 2px 3px #000;
+}
+section #welcome{
+	padding: 20px 10px 10px 10px;
+}
+section #welcome h1{
+	color: #6cc7dc;
+	font-family: "Time New Roman";
+	font-size: 35px;
+}
+section #welcome h3{
+	font-size: 17px;
+	color: #666;
+	padding: 25px 0;
+}
+section .front_box{
+	width: 260px;
+	float: left;
+	padding:  0 19px;
+	border-right: 1px solid #ccc;
+}
+section .box3{
+	border-right: none;
+}
+section .front_box h3{
+	font-size: 17px;
+	color: #3399ff;
+	padding-bottom: 10px;
+}
+section .front_box img{
+	float: left;
+}
+section .front_box p{
+	float: right;
+	width: 170px;
+	font-size: 12px;
+	line-height: 16px;
+}
+footer{
+	border-top: 1px solid #ccc;
+	margin-top: 200px;
+	padding: 0 20px;
+}
+footer p{
+	padding-top: 20px;
+	font-size: 11px;
+	float: left;
+}
+footer #sns{
+	float: right;
+}
+footer #sns img{
+	padding-top: 20px;
+}
+
+#main_pic{
+	background-image: url("img/aboutus_back.jpg");
+	height: 144px;
+}
+#main_pic h1{
+	color: rgba(255,255,255,0.5);
+	font-size: 60px;
+	text-transform: uppercase;
+	padding: 85px 10px 0 0;
+	float: right;
+}
+aside{
+	width: 160px;
+	float: left;
+	height: 250px;
+	padding-top: 20px;
+}
+aside nav{
+	background-image: none;
+	background-color: #fff;
+}
+aside nav ul{
+	padding: 0 0 0 30px;
+}
+aside nav ul li a{
+	color: #666;
+}
+aside nav li a:hover{
+	color: #000;
+}
+aside nav ul li{
+	line-height: 35px;
+}
+article{
+	padding: 0 0 0 200px;
+}
+article h2{
+	font-size: 50px;
+	margin: 20px 0;
+	color: #006400;
+	text-transform: capitalize;
+}
+article figure{
+	float: left;
+	margin: 10px 20px 10px 0;
+}
+article figure img{
+	border: 1px solid #fff;
+	box-shadow: 3px 3px 15px #666;
+}
+article figure figcaption{
+	text-align: center;
+}
+article p{
+	margin: 0 0 20px 0;
+	font-size: 13px;
+}
+article figure+p:first-letter{
+	font-size: 40px;
+	color: #36f;
+}
+
+
+
+
+
+
+
